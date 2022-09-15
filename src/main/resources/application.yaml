@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: yujtakbrnvwsmz
+    password: 30a8e133d4207b4f9ea84abf26c524249b8bfb01a07c3d4b179dc4ed785a15fb
+    url: jdbc:postgresql://ec2-54-172-219-218.compute-1.amazonaws.com:5432/d56a74u9r768gm
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 9000
